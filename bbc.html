@@ -1,0 +1,324 @@
+<html>
+    <head>
+        <title>My BBC Page!!!</title>
+        <style>
+            #topbar{
+                margin: 0 auto;
+                width: 1000px;
+                height: 40px;
+            }
+            body{
+                margin: 0;
+                padding: 0;
+                font-family: Helvetica, sans-serif, Ariel;
+            }
+            #logo{
+                margin-top: 8px;
+                width: 85px;
+                float: left;
+                padding-right: 10px;
+            }
+            .topbar-section{
+                float: left;
+                border-left: 1px #CCCCCC solid;
+                height:100%;
+            }
+            #sign-in{
+                width: 22px;
+                margin: -4px 5px 0 0;
+                float: left;
+            }
+            #signin-text{
+                font-weight: bold;
+                font-size: 100%;
+                position: relative;
+                margin: 0 40px 0 0;
+            }
+
+            #wigglyline{
+                float: left;
+                height: 40px;
+            }
+            #bell-div{
+                float: left;
+            }
+            #bell{
+                margin-right: 10px;
+            }
+            .topbar-menu{
+                font-weight: bold;
+                font-size: 80%;
+                padding: 14px; 15px;
+                height: 12px;
+            }
+            #search-box{
+                background-color: #E4E4E4;
+                border: none;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 4px;
+                margin: 7px 0 7px 7px;
+            }
+            #mag{
+                height: 25px;
+                margin: -7px;
+            }
+            #more-arrow{
+                margin: -5px 0 0 15px;
+                padding-left: 30px;
+                width: 12px;
+            }
+            #bell{
+                height: 22px;
+                padding: 8px;
+            }
+            .clear{
+                clear: both;
+            }
+            #menu-bar-container{
+                
+            }
+            #menu-bar{
+                width: 1000px;
+                margin: 0 auto;
+            }
+           
+            .clear{
+                clear: both;
+            }
+            #menu-bar-container{
+                border-top: 1px solid #CCCCCC;
+                background-color: #BB1919;
+                width: 100%;
+                height: 60px;
+            }
+            #menu-bar{
+                margin: 0 auto;
+                font-family: sans-serif;
+                width: 1000px;
+            }
+            h1{
+                padding: 0;
+                margin: 0;
+                color: white;
+                font-size: 40px;
+                font-weight: 100;
+                padding-top: 10px;
+                float: left;
+                font-family: sans-serif;
+            }
+            #pointer{
+                height: 20px;
+                width: 20px;
+                float: right;
+                padding-top: 5px;
+            }
+            #local-news{
+                border: 1px #BB4545 solid;
+                float: right;
+                width: 200px;
+                padding: 5px 5px 5px 10px;
+                margin: 10px 10px 0 0;
+                
+            }
+            #local-news a{
+                color: white;
+                text-decoration: none;
+                font-size: 25px;
+                position: relative;
+                top: 0;
+            }
+            #local-news a:hover{
+                text-decoration: underline;
+            }
+            #menu-bar2-container{
+                background-color: #A91717;
+                width: 100%;
+                height: 35px;
+            }
+            #menu-bar2{
+                margin: 0 auto;
+                width: 1000px;
+                text-decoration: none;
+                padding: 10px 5px;
+                color: white;
+            }
+            #menu-bar2 a{
+                color: white;
+                margin: 0 auto;
+                text-decoration: none;
+                border-right: 1px solid #BB4545;
+                position: relative;
+                padding-right: 15px;
+                padding-left: 5px;
+                font-size: 14px;
+            }
+            #menu-bar2 a:hover{
+                text-decoration: underline;
+            }
+            .morea{
+                border: none !important;
+                padding-right: 5px !important;
+                
+            }
+            #page-container{
+               width: 1000px;
+               margin: 0px auto;
+            }
+            h2{
+                font-weight: 500;
+                margin-top: 8px;
+                font-size: 20px;
+                border-bottom: 3px solid #BB4545;
+                width: 100px;
+            }
+            #headline{
+                font-size: 32px;
+                font-weight: bold;
+                margin-top: -5px;
+            }
+            #headline a{
+                font-size: 31px;
+                font-weight: bold;
+                margin-top: -5px;
+                color: #686868;
+                text-decoration: none;
+            }
+            #headline a:hover{
+                color: #1167A8;
+            }
+            
+           #article-summary{
+                font-style: Helvetica;
+                color: #5a5a5a;
+                width:250px;
+                float: left;
+                font-size: 14px;
+            }
+
+            .topic-link{
+                color: #A61B1B;
+                text-decoration: none;
+            }
+            #article-summary a:hover{
+                color: #1167A8;
+            }
+
+            .article-link{
+                text-decoration: none;
+                color: #686868;
+                font-size: 14px;
+                width: 300px;
+            }
+
+            #article-container{
+                width: 670px;
+                float: left;
+                border-right: 1px solid #CCCCCC;
+                padding-right: 20px;
+            }
+            #article-img{
+                width:380px;
+                margin-left: 20px;
+                padding-top: 15px;
+            }
+            #article-hr{
+                border-top: 1px solid #A91717;
+                width: 50px;
+            }
+            #watch-listen{
+                width:280px;
+                float: right;  
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topbar">
+            <img id="logo" src="bbc_lo.png">
+            <div id"signin-div" class="topbar-menu topbar-section">
+                <img id="sign-in" src="sign-in.png">
+                <span id="signin-text">Sign in</span>
+            </div>
+            <div id="bell-div">
+                <img id="bell" src="bella.png">
+                <img id=wigglyline src="wiggly.png">
+
+            </div>
+            <div class="topbar-section topbar-menu">
+                News
+            </div>
+            <div class="topbar-section topbar-menu">
+                Sports
+            </div>
+            <div class="topbar-section topbar-menu">
+                Weather
+            </div>
+            <div class="topbar-section topbar-menu">
+                Radio
+            </div>
+            <div class="topbar-section topbar-menu">
+                Travel
+            </div>
+            <div class="topbar-section topbar-menu">
+                More
+                <img id="more-arrow" src="more_arrow.png">
+            </div>
+            <div class="topbar-section">
+                <input id="search-box" type="text" value="Search">
+                <img id="mag" src="Screen%20Shot%202017-02-06%20at%2012.28.10%20PM.png"> 
+            </div>
+        </div>
+        
+        <div class="clear"></div>
+            <div id="menu-bar-container">
+                <div id="menu-bar">
+                    <h1>NEWS</h1>
+                    <div id="local-news">
+                        <a href="http://www.bbc.com/news">Find local news</a>
+                        <img id="pointer" src="pointer.jpg">
+                    </div>
+                </div>
+            </div>
+        <div class="clear"></div>
+                <div id="menu-bar2-container">
+                    <div id="menu-bar2">
+                         <a href="http://www.bbc.com/news">Home</a>
+                         <a href="http://www.bbc.com/news">Video</a>
+                         <a href="http://www.bbc.com/news">World</a>
+                         <a href="http://www.bbc.com/news">US & Canada</a>
+                         <a href="http://www.bbc.com/news">UK</a>
+                         <a href="http://www.bbc.com/news">Business</a>
+                         <a href="http://www.bbc.com/news">Tech</a>
+                         <a href="http://www.bbc.com/news">Science</a>
+                         <a href="http://www.bbc.com/news">Magazine</a>
+                         <a href="http://www.bbc.com/news">Entertainment & Arts</a>
+                         <a href="http://www.bbc.com/news">Health</a>
+                         <a class="morea" href="http://www.bbc.com/news">More</a>
+                         <img src="more_a_normal.png"> 
+                    </div>
+                </div>
+        <div class="clear"></div>
+        <div id="page-container">
+            <div id="main-article">
+            <h2>Technology</h2>
+            <div id="article-container">
+                <h1 id="headline">
+                <a href="http://www.bbc.com/news/technology-38897393">Twitter rolls out new anti-abuse tools</a></h1>
+                
+                <div id="article-summary">
+                    <p>Twitter announces more changes for users, aimed at combating bullying on its platform.</p>
+                    <p><img id="dial" src="dial.png"/>3 hours ago | <a class="topic-link" href="http://www.bbc.com/news/technology">Technology</a></p>
+                    <hr id="article-hr" align="left">
+                    <p><a class="article-link" href="http://www.bbc.com/news/business-37660911"> Salesforce rules out Twitter bid</a></p>
+                    <p><a class="article-link" href="http://www.bbc.com/news/technology-36376037">Dorsey: Twitter will take time to fix</a></p>
+                </div>
+                <img id="article-img" src="twitter.jpg">
+                </div>
+            </div>
+            <div id="watch-listen">
+                <h3>Watch-Listen</h3>
+                
+            </div>
+        </div>
+    </body>
+</html>
