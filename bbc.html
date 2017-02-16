@@ -164,6 +164,7 @@
             #page-container{
                width: 1000px;
                margin: 0px auto;
+                
             }
             h2{
                 font-weight: 500;
@@ -194,6 +195,7 @@
                 width:250px;
                 float: left;
                 font-size: 14px;
+               
             }
             #dial{
                 width: 17px;
@@ -219,7 +221,8 @@
             #article-container{
                 width: 670px;
                 float: left;
-
+                padding-bottom: 20px;
+                border-bottom: 1px solid #CCCCCC;
             }
             #article-img{
                 width:380px;
@@ -233,7 +236,6 @@
             #watch-listen{
                 float: right; 
                 width:310px;
-                color: #404040;
                 font-size: 20;
                 font-family: "Arial", arial, serif;
                 margin-top: -15px;
@@ -265,7 +267,6 @@
                 color: #626262;
                 font-weight: bold;
                 font-size: 16px;
-                
             }
             .date{
                 font-size: 14px;
@@ -274,16 +275,71 @@
                 position: relative;
                 color: #5a5a5a;
             }
-            .no-border {
-                
+            .no-border {   
                 border-left:none;
                 padding:0;
             }
             
-            .border-right {
-                
+            .bottom-panel{
+                width: 220px;
+                float: left;
                 border-right: 1px solid #CCCCCC;
-                
+                padding-right: 10px;
+            }
+            .bottom-mid{
+                padding-left: 14px;
+            }
+            .bottom-last{
+                top: -440px;
+                width: 140px;
+                padding-left: 14px;
+                border: none;
+            }
+            .bottom-width{
+                width: 180px;
+            }
+            .bottom-container{
+                top: -500px;
+                float: left;
+                position: relative;
+                width: 650px;
+                padding-bottom: 10px;
+            }
+            .middle-container{
+                height: 400px;
+                width: 650px;
+                top: -490px;
+                position: relative;
+                float: left;
+                border-top: 1px solid #CCCCCC;
+            }
+            .middle-details{
+                width: 48%;
+                float: left;
+            }
+            
+            .customHr {
+                width: 95%;
+                float:left;
+                font-size: 1px;
+                color: rgba(0, 0, 0, 0);
+                line-height: 1px;
+
+                background-color: grey;
+                margin-top: -6px;
+                margin-bottom: 10px;
+            }
+            #share{
+                padding-left: -20px;
+            }
+            #social-share{
+                font-size: 14px;
+            }
+            .social-img{
+                top: 5px;
+                position: relative;
+                padding-right: 5px;
+                padding-left: 5px;
             }
         </style>
     </head>
@@ -392,6 +448,72 @@
                 <div class="clear"></div>
                 <img class="article-side" src="watch4.png">
                 <div class="side-details">
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                </div>
+                <div class="clear"></div>
+                <img class="article-side" src="watch4.png">
+                <div class="side-details">
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                </div>
+                <div class="clear"></div>
+                <h4 id"share">Share with BBC News<img class="social-img" src="share1.png"></h4>
+                <p id="social-share"><img class="social-img" src="share2.png">Send us an SMS or MMS to +44 7624 800100</p>
+                <p id="social-share"><img class="social-img" src="share3.png">Email us at haveyoursay@bbc.co.uk</p>
+                <p id="social-share"><img class="social-img" src="share4.png">Follow Have Your Say on Twitter</p>
+            </div>
+            <div class="clear"></div>
+            <div class="bottom-container">
+            <div class = "bottom-panel">
+                <img src="bottom-panel1.png">
+                <h3>Swipe right for new 'mum friends'</h3>
+                <div id="article-summary bottom-width">
+                    <p><a class="article-link" href="">A new app aimed at mothers has launched in London and New York, aimed at helping mums.</a></p>
+                    <p><img id="dial" src="dial.png"/>3 hours ago | <a class="topic-link" href="http://www.bbc.com/news/technology">Technology</a></p>
+                    <hr id="article-hr" align="left">
+                    <p><a class="article-link" href="http://www.bbc.com/news/business-37660911"> Salesforce rules out Twitter bid</a></p>
+                    <p><a class="article-link" href="http://www.bbc.com/news/technology-36376037">Dorsey: Twitter will take time to fix</a></p>
+                </div>
+            </div>
+            <div class="bottom-panel bottom-mid">
+                <img src="bottom-panel.png">
+                <h3>Dubai announces passenger drone plans</h3>
+                <div id="article-summary bottom-width">
+                    <p><a class="article-link" href="">A drone that can carry people will begin "regular operations" in Dubai from July.   </a></p>
+                    <p><img id="dial" src="dial.png"/>3 hours ago | <a class="topic-link" href="http://www.bbc.com/news/technology">Technology</a></p>
+                    <hr id="article-hr" align="left">
+                    <p><a class="article-link" href="http://www.bbc.com/news/business-37660911"> Salesforce rules out Twitter bid</a></p>
+                    <p><a class="article-link" href="http://www.bbc.com/news/technology-36376037">Dorsey: Twitter will take time to fix</a></p>
+                </div>
+            </div>
+            <div class="bottom-panel bottom-last">
+                <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">Apparentice vana release dating app</a><p/>
+                <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Technology</a></span>
+                <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">BBC travel website is switched off.</a><p/>
+                <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+            </div>
+        </div>
+            <div class="middle-container">
+                <div class="middle-details">
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                    <div class="customHr">.</div>
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                   <div class="customHr">.</div>
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                </div>
+                <div class="middle-details">
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                    <div class="customHr">.</div>
+                    <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
+                    <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
+                    <div class="customHr">.</div>
                     <p><a class="watch-link" href="http://www.bbc.com/news/business-38953157">The skills shortage pushing Dyson to Asia</a><p/>
                     <span class="date"><img id="dial" src="dial.png">12 February 2017 | <a class="topic-link" href="">Business</a></span>
                 </div>
